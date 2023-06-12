@@ -1,0 +1,79 @@
+.profile-box-root {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    width: 330px;
+    border: 1px solid black;
+}
+
+.name-box-profile-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.profile-picture-placeholder {
+    background-color: #FF986C;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.profile-picture {
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.view-btn-profile-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    background: #201F4D;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.links-box-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.designation-box-profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 200px;
+    margin-left: 30px;
+}
+
+.account-label-profile {
+    font-size: 16px;
+    font-weight: 600;
+    color: #201F4D;
+}
+
+.menu-item-profile-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 0px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.menu-item-profile-box:hover {
+    background-color: #F6F8FF;
+}

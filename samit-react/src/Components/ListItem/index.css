@@ -1,0 +1,43 @@
+.root-list-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    height: 90px;
+}
+.root-list-item:hover {
+    background-color: #F6F8FF;
+}
+
+.dummy-icon-placeholder {
+    background-color: #6C9EFF;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.icon-list-item {
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.quantity-box-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #BFCAF0;
+}
+
+.info-box-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
